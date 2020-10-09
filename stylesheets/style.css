@@ -46,6 +46,20 @@ h2 {
 	background-color: white;
 }
 
+#footer_box {
+	min-height: 100px;
+	width: 800px;
+	margin: auto;
+
+	/*border: solid; */
+	/* border-color: #dfdfdf; */
+	border-radius: 5px;
+
+	box-shadow: 1px 1px 10px #7fbadb ;
+
+	background-color: white;
+}
+
 .box {
 	padding-top: 10px;
 	padding-bottom: 10px;
