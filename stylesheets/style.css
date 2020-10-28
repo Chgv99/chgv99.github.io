@@ -64,6 +64,10 @@ hr {
 .box {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	/*
+	background-image: url("../pictures/banner.png");
+	background-size: 100% 100%;
+	*/
 }
 
 nav {
