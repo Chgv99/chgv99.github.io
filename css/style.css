@@ -3,8 +3,11 @@
 }
 
 body {
-	background-color: #cce3f0;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	/*background-color: #cce3f0;*/
+	background-color: white;
+	/*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+	font-family: "Roboto";
+	font-weight: 400;
 	font-size: 20px;
 }
 
@@ -25,6 +28,7 @@ h2 {
 	margin-bottom: 30px;
 
 	text-align: center;
+	color: white;
 }
 
 #page_title {
@@ -48,6 +52,7 @@ hr {
 	width: 1300px;
 
 	margin: auto;
+	margin-top: 50px;
 
 	/* padding-top: 35px; */
 	padding-bottom: 80px;
@@ -71,6 +76,10 @@ hr {
 }
 
 nav {
+	border-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+
 	margin: 0 auto;
 	width: 750;
 	background-color: #0076B8;
@@ -191,103 +200,4 @@ p {
 	box-shadow: 1px 1px 10px #7fbadb ;
 
 	background-color: white;
-}
-
-@media (max-width: 1300px) and (min-width: 851px) {
-	/*.facet_sidebar {
-	  	display: none;
-	}*/
-	body {
-		/* font-size: ; */
-	}
-
-	#main_box {
-		/* height: 1000px; */
-		width: 100%;
-		margin: auto;
-
-		/* padding-top: 35px; */
-		padding-bottom: 80px;
-
-		/*border: solid; */
-		/* border-color: #dfdfdf; */
-		border-radius: 5px;
-
-		box-shadow: 1px 1px 10px #7fbadb ;
-
-		background-color: white;
-	}
-	
-	#footer_box {
-		width: 100%;
-	}
-}
-
-
-@media (max-width: 850px) {
-
-	body {
-		font-size: ;
-	}
-
-	#main_box {
-		/* height: 1000px; */
-		width: 100%;
-		margin: auto;
-
-		/* padding-top: 35px; */
-		padding-bottom: 80px;
-
-		/*border: solid; */
-		/* border-color: #dfdfdf; */
-		border-radius: 5px;
-
-		box-shadow: 1px 1px 10px #7fbadb ;
-
-		background-color: white;
-	}
-
-	nav ul li {
-	    float: none;
-	    padding-top: 25px;
-	}
-
-	nav ul li:first-of-type {
-    	margin-left: 0;
-	}
-
-	nav ul li a{
-	    padding-top: 0;
-	    padding-bottom: 0;
-	    vertical-align: middle;
-	    margin: 0;
-
-	    height: 50px;
-	}
-
-	.column50 {
-		display: block;
-		float: left;
-		width: 100%;	
-
-		padding: 0;
-		padding-top: 20px;
-	}
-
-	.column50:last-of-type {
-		padding: 0;
-	}
-
-	#footer_box {
-		min-height: 100px;
-		width: 100%;
-
-		/*border: solid; */
-		/* border-color: #dfdfdf; */
-		border-radius: 5px;
-
-		box-shadow: 1px 1px 10px #7fbadb ;
-
-		background-color: white;
-	}
 }
