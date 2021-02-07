@@ -20,8 +20,8 @@ h2 {
 	margin: 0;
 }
 
-#web_title {
-	width: 300px;
+.web_title {
+	width: auto;
 	height: auto;
 	margin: auto;
 	margin-top: 30px;
@@ -40,6 +40,51 @@ h2 {
 hr {
 	border-style: solid;
 	color: #0076B8;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+p {
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+.carousel-caption p {
+	font-weight: lighter;
+}
+
+.nav-item:hover {
+	background: #00649c;
+}
+
+.nav-item.active {
+	background: #00649c;
+}
+
+.dropdown-menu {
+	background: #0076B8;
+}
+
+.dropdown-menu .nav-item {
+	background: #0076B8;
+}
+
+.nav-item:hover {
+	background: #00649c;
+}
+
+.nav-item.active {
+	background: #00649c;
+}
+
+.text-shadow {
+	text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 #page_title::after {
@@ -139,35 +184,17 @@ nav ul li a{
 	border-width: 2px;
 }
 
-.column50 {
-	display: block;
-	float:left;
-	width: 50%;	
-
-	padding-top: 20px;
-	padding-right: 25px;
+#footer {
+	background-color: #0076B8;
+	color: white;
 }
 
-.column50 img {
-	width: 100%;
+#footer a {
+	color: white;
 }
 
-.column50:first-of-type {
-	
-}
-
-.column50:last-of-type {
-	padding-left: 25px;
-	padding-right: 0;
-}
-
-p {
-	text-align: justify;
-  	text-justify: inter-word;
-}
-
-.column50 p:first-of-type {
-	margin-top: 0;
+#footer a:hover {
+	color: gray;
 }
 
 #footer_box {
