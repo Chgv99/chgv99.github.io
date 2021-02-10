@@ -11311,7 +11311,29 @@ p {
   font-size: 22px;
 }
 
+.p-5, nav .container {
+  padding-left: 48px !important;
+  padding-right: 48px !important;
+}
+
+.image-blurred-edge {
+  background-image: url("http://lorempixel.com/200/200/city/9");
+  background-color: none;
+  width: 200px;
+  height: 200px;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  -webkit-box-shadow: 0 0 8px 8px white inset;
+          box-shadow: 0 0 8px 8px white inset;
+}
+
 @media (max-width: 992px) {
+  h2, .h2 {
+    font-size: 100px;
+  }
+  p {
+    text-align: justify;
+    font-size: 72px;
+  }
   .p-5, nav .container {
     margin: 0 !important;
     padding-left: 16px !important;

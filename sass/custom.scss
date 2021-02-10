@@ -23,7 +23,35 @@ $container-max-widths: (
   xxl: 1320px
 ) !important;
 
+.p-5, nav .container {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+}
+
+.image-blurred-edge {
+    background-image: url('http://lorempixel.com/200/200/city/9');
+    background-color: none;
+    width: 200px;
+    height: 200px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+// MEDIA QUERIES
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
 @media (max-width: 992px) {
+
+    h2 {
+        font-size: 100px;
+    }
+    
+    p {
+        text-align: justify;
+        font-size: 72px;
+    }
+
     .p-5, nav .container {
         margin: 0 !important;
         padding-left: 16px !important;
@@ -31,4 +59,17 @@ $container-max-widths: (
         width: 100%;
         max-width: none;
     }
+
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}
