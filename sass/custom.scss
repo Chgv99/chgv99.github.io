@@ -34,6 +34,10 @@ p {
     box-shadow: 0 0 8px 8px white inset;
 }
 
+footer a {
+    color: white;
+}
+
 // MEDIA QUERIES
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {}
@@ -42,10 +46,15 @@ p {
 
     .p-5, nav .container {
         margin: 0 !important;
-        padding-left: 16px !important;
-        padding-right: 16px !important;
+        padding: 48px !important;
+        //padding-left: 16px !important;
+        //padding-right: 16px !important;
         //width: 100%;
         max-width: none;
+    }
+
+    footer .p-5 {
+        //padding-bottom: 16px !important;
     }
 
 }
