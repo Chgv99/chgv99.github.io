@@ -4,7 +4,16 @@ $primary: #0076B8;
 //$secondary: 
 $danger: red;
 
+@import "../node_modules/bootstrap/scss/bootstrap";
 
+h2 {
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+    font-size: 22px;
+}
 
 $container-max-widths: (
   sm: 540px,
@@ -12,20 +21,14 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px,
   xxl: 1320px
-) !default;
+) !important;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-@media (max-width: 720px) {
-    .p-5 {
+@media (max-width: 992px) {
+    .p-5, nav .container {
         margin: 0 !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-
-        font-size: 20px;
-    }
-
-    .p-5 h2 {
-        font-size: 40px;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        width: 100%;
+        max-width: none;
     }
 }
