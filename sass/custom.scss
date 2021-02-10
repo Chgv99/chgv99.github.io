@@ -20,11 +20,6 @@ p {
     font-size: 22px;
 }
 
-.p-5, nav .container {
-    padding-left: 48px !important;
-    padding-right: 48px !important;
-}
-
 .image-blurred-edge {
     background-image: url('http://lorempixel.com/200/200/city/9');
     background-color: none;
@@ -46,17 +41,33 @@ footer a {
 
     .p-5, nav .container {
         margin: 0 !important;
-        padding: 48px !important;
         //padding-left: 16px !important;
         //padding-right: 16px !important;
         //width: 100%;
         max-width: none;
     }
 
+    p, h2 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    hr {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
     footer .p-5 {
         //padding-bottom: 16px !important;
     }
 
+}
+
+@media (min-width: 993px) {
+    .p-5, nav .container {
+        padding-left: 48px !important;
+        padding-right: 48px !important;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
