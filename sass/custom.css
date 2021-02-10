@@ -11301,4 +11301,16 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+@media (max-width: 720px) {
+  .p-5 {
+    margin: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 20px;
+  }
+  .p-5 h2, .p-5 .h2 {
+    font-size: 40px;
+  }
+}
 /*# sourceMappingURL=custom.css.map */

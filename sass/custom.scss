@@ -5,4 +5,27 @@ $primary: #0076B8;
 $danger: red;
 
 
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+) !default;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+@media (max-width: 720px) {
+    .p-5 {
+        margin: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+
+        font-size: 20px;
+    }
+
+    .p-5 h2 {
+        font-size: 40px;
+    }
+}
