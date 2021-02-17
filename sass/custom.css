@@ -11306,6 +11306,10 @@ fieldset:disabled .btn {
   font-size: 2rem !important;
 }
 
+.dropdown-menu .nav-link {
+  color: #0076B8 !important;
+}
+
 h2, .h2 {
   font-size: 40px;
 }
@@ -11313,6 +11317,23 @@ h2, .h2 {
 p {
   text-align: justify;
   font-size: 22px;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+/*.nav-link:hover {
+    background-color: $navbar-dark-hover-color !important;
+    color: $primary;
+}
+
+.dropdown-menu .nav-link:hover, .dropdown-menu .nav-link:hover a  {
+    background-color: $primary !important;
+    color: white;
+}*/
+#body-container .row {
+  margin-bottom: 48px;
 }
 
 .image-blurred-edge {

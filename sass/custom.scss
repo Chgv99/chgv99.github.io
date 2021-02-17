@@ -2,13 +2,17 @@ $font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
 //$font-family-base: 'Roboto', sans-serif;
 
 $primary: #0076B8;
-//$secondary: 
+//$secondary:  black;
 $danger: red;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 .navbar-brand {
     font-size: 2rem !important;
+}
+
+.dropdown-menu .nav-link {
+    color: $primary !important;
 }
 
 h2 {
@@ -18,6 +22,24 @@ h2 {
 p {
     text-align: justify;
     font-size: 22px;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+/*.nav-link:hover {
+    background-color: $navbar-dark-hover-color !important;
+    color: $primary;
+}
+
+.dropdown-menu .nav-link:hover, .dropdown-menu .nav-link:hover a  {
+    background-color: $primary !important;
+    color: white;
+}*/
+
+#body-container .row {
+    margin-bottom: 48px;
 }
 
 .image-blurred-edge {
