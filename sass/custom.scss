@@ -1,14 +1,31 @@
 $font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
+$font-size-base: 1.5rem;
 //$font-family-base: 'Roboto', sans-serif;
-
 $primary: #0076B8;
 //$secondary:  black;
 $danger: red;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body {
+    font-size: 20px; 
+}
+
+.alert {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+}
+
 .navbar-brand {
-    font-size: 2rem !important;
+    font-size: 60px !important;
+    font-family: "Tw Cen MT", sans-serif;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar {
+    padding: 0px !important;
 }
 
 .dropdown-menu .nav-link {
@@ -17,6 +34,10 @@ $danger: red;
 
 h2 {
     font-size: 40px;
+}
+
+.card-title {
+    font-weight: bold;
 }
 
 p {
@@ -28,6 +49,41 @@ p:last-of-type {
     margin-bottom: 0;
 }
 
+.card {height: 100%;width: 100%;}
+
+#card-row .col {
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer .row {
+    padding: 0;
+}
+
+/*#separator-ribbon {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 1px;
+}*/
+
+/*footer::before {
+    content:url("/pictures/ribbon-test-1.png");
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}*/
+
+/*#separator-ribbon .content {
+    width: 150%;
+    height: 150%;
+}*/
+
 /*.nav-link:hover {
     background-color: $navbar-dark-hover-color !important;
     color: $primary;
@@ -38,9 +94,9 @@ p:last-of-type {
     color: white;
 }*/
 
-#body-container .row {
+/*#body-container .row {
     margin-bottom: 48px;
-}
+}*/
 
 .image-blurred-edge {
     background-image: url('http://lorempixel.com/200/200/city/9');
@@ -82,15 +138,8 @@ footer a {
     footer .p-5 {
         //padding-bottom: 16px !important;
     }
-
 }
 
-@media (min-width: 993px) {
-    .p-5, nav .container {
-        padding-left: 48px !important;
-        padding-right: 48px !important;
-    }
-}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {}
