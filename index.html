@@ -58,29 +58,24 @@
             </div>
         </div>
     </div>
-	<div class="container px-5 p-sm-0">
-        <div class="row">
+	<div id="body-container" class="container-fluid p-0">
+        <div class="row justify-content-center">
             <div class="alert alert-danger" role="alert">
                 <i class="bi bi-exclamation-triangle-fill"></i>
                 Este sitio sigue en construcción. No debe servir de referencia en este estado.
             </div>
         </div>
-        <div class="row ">
-            <div class="col-12 p-0">
-                <div class="container-fluid my-5">
-                    <p>
-                        ¡Hola! Soy Christian García Viguera, y te doy la bienvenida a mi sitio web de GitHub. Aquí subiré información
-                        de todos mis proyectos. También puedes acceder a <a href="https://github.com/Chgv99">mi perfil de GitHub</a> si lo que te interesa es ver los proyectos de
-                        programación.
-                    </p>
-                    <p>
-                        
-                    </p>
-                </div>
+        <div class="row justify-content-center">
+            <div class="p-0">
+                <p>
+                    ¡Hola! Soy Christian García Viguera, y te doy la bienvenida a mi sitio web de GitHub. Aquí subiré información
+                    de todos mis proyectos. También puedes acceder a <a href="https://github.com/Chgv99">mi perfil de GitHub</a> si lo que te interesa es ver los proyectos de
+                    programación.
+                </p>
             </div>
         </div>
-        <div id="card-row" class="row justify-content-evenly">
-            <div class="col-12 col-5 col-lg-3 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5 col-lg-5 col-xl-3 mb-5 p-0">
                 <div class="card shadow">
                     <!--<img src="/pictures/3.1.png" class="card-img-top overflow-hidden h-10" alt="...">-->
                     <div class="card-body">
@@ -94,7 +89,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-5 col-lg-3 mb-5">
+            <div class="col-2 d-xl-none"></div>
+            <div class="col-1 d-none d-xl-block"></div>
+            <div class="col-md-5 col-lg-5 col-xl-3 mb-5 p-0">
                 <div class="card shadow">
                     <!--<img src="/pictures/3.1.png" class="card-img-top overflow-hidden h-10" alt="...">-->
                     <div class="card-body">
@@ -103,12 +100,13 @@
                     </div>
                     <div class="card-footer container-fluid ">
                         <div class="row justify-content-center">
-                            <a href="#" class="btn btn-primary w-auto">Explorar</a>
+                            <a href="inprogress.html" class="btn btn-primary w-auto">Explorar</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-6 col-lg-3 mb-5">
+            <div class="col-1 d-none d-xl-block"></div>
+            <div class="col-12 col-xl-3 mb-5 p-0">
                 <div class="card shadow">
                     <!--<img src="/pictures/3.1.png" class="card-img-top overflow-hidden h-10" alt="...">-->
                     <div class="card-body">
@@ -117,64 +115,58 @@
                     </div>
                     <div class="card-footer container-fluid ">
                         <div class="row justify-content-center">
-                            <a href="#" class="btn btn-primary w-auto">Explorar</a>
+                            <a href="finished.html" class="btn btn-primary w-auto">Explorar</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row mb-0 pb-0 d-none d-lg-block">
-            <div class="col-12 p-0">
-                <div class="container-fluid shadow p-0">
-                    <div id="carouselExampleInterval" class="carousel slide m-0" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        <div class="row pb-0">
+            <div class="container-fluid d-none d-lg-block p-0 mb-0">
+                <div class="col-12 p-0">
+                    <div class="container-fluid shadow p-0">
+                        <div id="carouselExampleInterval1" class="carousel slide m-0" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="/pictures/Sunset Pixelart.png" class="d-block w-100" alt="Pixelart sunset">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Pixelart</h5>
+                                        <span>Me encanta crear composiciones pixelart.</span>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="/pictures/brix-banner.png" class="d-block w-100" alt="Brix logo">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Brix</h5>
+                                        <span>Clon del conocido Arkanoid o Breakout con toques personales.</span>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="/pictures/platformer-proyect-banner.png" class="d-block w-100" alt="Unity platformer">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Plataformas (WIP)</h5>
+                                        <span>Próximo proyecto.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleInterval1" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleInterval1" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </a>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="/pictures/Sunset Pixelart.png" class="d-block w-100" alt="Pixelart sunset">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Pixelart</h5>
-                                    <span>Me encanta crear composiciones pixelart.</span>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <img src="/pictures/brix-banner.png" class="d-block w-100" alt="Brix logo">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Brix</h5>
-                                    <span>Clon del conocido Arkanoid o Breakout con toques personales.</span>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <img src="/pictures/platformer-proyect-banner.png" class="d-block w-100" alt="Unity platformer">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Plataformas (WIP)</h5>
-                                    <span>Próximo proyecto.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <!--<div class="row">
-            <div class="col-6 p-0">
-                <img class="img-fluid" src="/pictures/brix-banner.png" alt="Brix logo">
-            </div>
-            <div class="col-6 p-0">
-                <img class="img-fluid" src="/pictures/Sunset Pixelart.png" alt="Pixelart sunset">
-            </div>
-        </div>-->
 	</div>
     <div class="container-fluid d-block d-lg-none p-0">
         <div class="col-12 p-0">
@@ -234,7 +226,7 @@
                             <button class="btn btn-lg rounded-pill btn-warning w-10 p-3 shadow-sm font-weight-bold"> Ey</button>
                         </a>
                     </div>-->
-                    <div class="col-md-6 pt-4 pt-md-0 font-weight-light text-white d-flex justify-content-center"> <!--d-flex justify-content-center-->
+                    <div class="col-md-12 col-lg-6 pt-4 pt-md-0 font-weight-light text-white d-flex justify-content-center"> <!--d-flex justify-content-center-->
                         <div class="col-6 d-flex justify-content-center">
                             <div class="col-6 text-center text-md-left">
                                 <h5 class="">Contacto</h5> <!--text-center-->
@@ -249,7 +241,7 @@
                             </div>
                         </div>-->
                     </div>
-                    <div class="col-md-2 col-lg-6 py-auto">
+                    <div class="col-md-12 col-lg-6 py-auto">
                         <div class="row pt-4 text-center">
                             <span>by Christian García Viguera</span>
                         </div>

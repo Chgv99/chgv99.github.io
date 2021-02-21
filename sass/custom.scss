@@ -1,5 +1,8 @@
 $font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
 $font-size-base: 1.5rem;
+
+$border-radius-lg: .5em;
+
 //$font-family-base: 'Roboto', sans-serif;
 $primary: #0076B8;
 //$secondary:  black;
@@ -9,6 +12,10 @@ $danger: red;
 
 body {
     font-size: 20px; 
+}
+
+#body-container {
+    width: 85%;
 }
 
 .alert {
@@ -32,6 +39,15 @@ body {
     color: $primary !important;
 }
 
+h1 {
+    color: $primary;
+    background-image: "/pictures/."
+}
+
+.page-title {
+    border-bottom: 2px solid $primary;
+}
+
 h2 {
     font-size: 40px;
 }
@@ -40,9 +56,16 @@ h2 {
     font-weight: bold;
 }
 
+.quote {
+    background-color: $primary;
+    color: white;
+    overflow: hidden;
+}
+
 p {
     text-align: justify;
     font-size: 22px;
+    padding: 0;
 }
 
 p:last-of-type {
@@ -115,9 +138,7 @@ footer a {
     color: white;
 }
 
-// MEDIA QUERIES
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
+
 
 @media (max-width: 992px) {
 
@@ -129,10 +150,10 @@ footer a {
         max-width: none;
     }
 
-    p, h2 {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+    //p, h2 {
+    //    padding-left: 16px;
+    //    padding-right: 16px;
+    //}
 
     hr {
         margin-left: 16px;
@@ -144,15 +165,42 @@ footer a {
     }
 }
 
+// MEDIA QUERIES
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .quote {
+        max-width: 700px;
+        min-height: 172px;
+        max-height: 172px;
+    }
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    #body-container {
+        width: 75%;
+    }
+
+    .quote {
+        max-width: 700px;
+        min-width: 700px;
+        max-height: none;
+    }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    
+}
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    
+}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+    #body-container {
+        width: 50%;
+    }
+}
