@@ -11574,6 +11574,7 @@ p {
   text-align: justify;
   font-size: 22px;
   padding: 0;
+  text-indent: 50px;
 }
 
 p:last-of-type {
@@ -11601,6 +11602,13 @@ p:last-of-type {
 
 footer .row {
   padding: 0;
+}
+
+.footer-brand {
+  font-size: 60px !important;
+  font-family: "Tw Cen MT", sans-serif;
+  padding: 0px;
+  text-decoration: none;
 }
 
 /*#separator-ribbon {
@@ -11643,6 +11651,10 @@ footer .row {
 
 footer a {
   color: white;
+}
+
+.footer-element {
+  text-align: center;
 }
 
 @media (max-width: 992px) {
