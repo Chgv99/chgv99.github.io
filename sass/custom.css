@@ -11534,6 +11534,7 @@ body {
 .navbar-brand {
   font-size: 60px !important;
   font-family: "Tw Cen MT", sans-serif;
+  vertical-align: middle;
   padding: 0px;
   padding-left: 5px;
   padding-right: 5px;
@@ -11560,8 +11561,20 @@ h2, .h2 {
   font-size: 40px;
 }
 
+.card {
+  background-color: #075a71;
+  background-image: url("/pictures/CG.gif");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 100% top;
+}
+
 .card-title {
   font-weight: bold;
+}
+
+.card p {
+  height: 82px;
 }
 
 .quote {
@@ -11577,6 +11590,11 @@ p {
   text-indent: 50px;
 }
 
+.card p {
+  text-indent: 0;
+  text-align: left;
+}
+
 p:last-of-type {
   margin-bottom: 0;
 }
@@ -11584,6 +11602,12 @@ p:last-of-type {
 .card {
   height: 100%;
   width: 100%;
+}
+
+.btn-light:hover {
+  background-color: #0f4957;
+  border-color: #0f4957;
+  color: white;
 }
 
 #card-row .col {
@@ -11687,7 +11711,7 @@ footer a {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 2050px) {
   #body-container {
     width: 50%;
   }
