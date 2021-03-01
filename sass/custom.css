@@ -11519,7 +11519,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #body-container {
@@ -11558,7 +11558,34 @@ h1, .h1 {
 }
 
 h2, .h2 {
+  color: #0076B8;
   font-size: 40px;
+  /*text-decoration-thickness: 5px;*/
+  /*text-decoration: underline;*/
+  border-bottom: 1px solid #0076B8;
+}
+
+h3, .h3 {
+  color: #0076B8;
+  font-size: 35px;
+}
+
+h3::before, .h3::before {
+  content: " - ";
+}
+
+h3::after, .h3::after {
+  content: ":";
+}
+
+pre {
+  background-color: #212529;
+  color: white;
+  border-radius: 5px;
+}
+
+ul {
+  color: #0076B8;
 }
 
 .card {
@@ -11581,6 +11608,14 @@ h2, .h2 {
   background-color: #0076B8;
   color: white;
   overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 p {
@@ -11690,6 +11725,9 @@ footer a {
     margin-left: 16px;
     margin-right: 16px;
   }
+  /*footer .p-5 {
+        //padding-bottom: 16px !important;
+    }*/
 }
 
 @media (min-width: 576px) {

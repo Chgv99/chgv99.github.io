@@ -10,7 +10,7 @@ $danger: red;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
-    font-size: 20px; 
+    font-size: 22px; 
 }
 
 #body-container {
@@ -50,7 +50,38 @@ h1 {
 }
 
 h2 {
+    color: $primary;
     font-size: 40px;
+    /*text-decoration-thickness: 5px;*/
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid $primary;
+}
+
+h3 {
+    color: $primary;
+    font-size: 35px;
+}
+
+h3::before {
+    content: " - ";
+}
+
+h3::after {
+    content: ":";
+}
+
+kbd {
+    //background-color: #075a71;
+}
+
+pre {
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+}
+
+ul {
+    color: $primary;
 }
 
 .card {
@@ -73,6 +104,14 @@ h2 {
     background-color: $primary;
     color: white;
     overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 p {
@@ -194,9 +233,9 @@ footer a {
         margin-right: 16px;
     }
     
-    footer .p-5 {
+    /*footer .p-5 {
         //padding-bottom: 16px !important;
-    }
+    }*/
 }
 
 // MEDIA QUERIES
