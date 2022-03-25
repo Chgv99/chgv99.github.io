@@ -238,7 +238,7 @@ strong {
 }
 
 .navbar-nav .nav-link::after {
-  content: "\f140";
+  content: "\F287";
   font-family: bootstrap-icons;
   display: inline-block;
   margin-left: 10px;
