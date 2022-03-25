@@ -2,11 +2,15 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body {
-  background-color: #71677c;
+nav {
+  background-color: #37123c;
 }
 
-.row .col {
-  background-color: red;
+#sidebar {
+  background-color: #37123c;
+}
+
+body {
+  background-color: #71677c;
 }
 /*# sourceMappingURL=style.css.map */

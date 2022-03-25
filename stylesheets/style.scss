@@ -1,39 +1,24 @@
-$primary-color: rgb(55, 18, 60);
-$secondary-color: rgb(113, 103, 124);
+$bg-primary: rgb(55, 18, 60);
+$bg-secondary: rgb(113, 103, 124);
+
 $emphasis-color: rgb(240, 226, 231);
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+nav {
+    background-color: $bg-primary;
+}
+
+#sidebar {
+    background-color: $bg-primary;
+}
+
 body {
-    background-color: $secondary-color;
+    background-color: $bg-secondary;
 }
 
 h1 {
     
-}
-
-.row .col {
-    background-color: red;
-}
-
-// Usage
-
-// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
-.custom-class {
-    display: none;
-}
-
-@include media-breakpoint-up(sm) {
-    .custom-class {
-        display: block;
-        background-color: red;
-    }
-}
-
-@include media-breakpoint-up(md) {
-    .custom-class {
-        display: inline-block;
-    }
 }
