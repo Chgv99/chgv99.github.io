@@ -1,5 +1,10 @@
-* {
-  color: #aa00ff;
+@import url(f:\Usuarios\Chris\Escritorio\chgv99.github.io\css\bootstrap.min.css);
+.icon-itch {
+  background-image: url("../images/icons/itch.svg") !important;
+  background-position: center center;
+  width: 1em;
+  background-color: red;
+  color: red;
 }
 
 .navbar-nav {

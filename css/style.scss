@@ -1,7 +1,23 @@
-$primary-color: rgb(170, 0, 255);
+@import "bootstrap.min.css";
 
 * {
-    color: $primary-color;
+
+}
+
+h2 {
+    
+}
+
+.nav {
+    
+}
+
+.icon-itch {
+    background-image: url("../images/icons/itch.svg")!important;
+    background-position: center center;
+    width: 1em;
+    background-color: red;
+    color: red;
 }
 
 .navbar-nav {
