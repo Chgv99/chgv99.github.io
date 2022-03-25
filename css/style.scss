@@ -1,0 +1,9 @@
+$primary-color: rgb(170, 0, 255);
+
+* {
+    color: $primary-color;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
