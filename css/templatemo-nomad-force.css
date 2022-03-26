@@ -112,6 +112,10 @@ p {
   letter-spacing: 0.5px;
 }
 
+hr {
+  color: var(--primary-color);
+}
+
 .bg-dark .shadow-lg {
   
 }
