@@ -111,6 +111,7 @@ p {
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
   letter-spacing: 0.5px;
+  text-align: justify;
 }
 
 #lang-icons i {
