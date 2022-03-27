@@ -51,6 +51,7 @@ body {
     background: var(--white-color);
     font-family: var(--body-font-family);    
     position: relative;
+    overflow-x: hidden;
 }
 
 /*---------------------------------------
@@ -112,6 +113,12 @@ p {
   letter-spacing: 0.5px;
 }
 
+#lang-icons i {
+  color: var(--p-color);
+  text-align: center;
+  font-size: calc(var(--p-font-size) * 4);
+}
+
 hr {
   color: var(--primary-color);
 }
@@ -137,6 +144,11 @@ a {
 
 a:hover {
   color: var(--primary-color);
+}
+
+footer a {
+  color: var(--white-color);
+  text-decoration: none;
 }
 
 ::selection {
@@ -635,7 +647,7 @@ strong {
 
 .social-icon li {
   list-style: none;
-  display: inline-block;
+  /**display: inline-block;*/
   vertical-align: top;
 }
 
