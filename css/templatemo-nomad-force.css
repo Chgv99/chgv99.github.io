@@ -120,6 +120,14 @@ p {
   font-size: calc(var(--p-font-size) * 4);
 }
 
+#lang-icons p {
+  font-size: var(--p-font-size);
+}
+
+#social-icons i {
+  font-size: calc(var(--p-font-size) * 1.5);
+}
+
 hr {
   color: var(--primary-color);
 }
@@ -150,6 +158,33 @@ a:hover {
 footer a {
   color: var(--white-color);
   text-decoration: none;
+}
+
+.card {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+#highlighted-projects img {
+  /*border: 2px solid;
+  border-color: var(--secondary-color);*/
+}
+
+#highlighted-projects h1,
+#highlighted-projects h2, 
+#highlighted-projects h3, 
+#highlighted-projects h4, 
+#highlighted-projects h5,
+#highlighted-projects a {
+  color: var(--secondary-color);
+}
+
+#highlighted-projects a:hover {
+  color: var(--primary-color);
+}
+
+#highlighted-projects p {
+  color: var(--white-color);
 }
 
 ::selection {
