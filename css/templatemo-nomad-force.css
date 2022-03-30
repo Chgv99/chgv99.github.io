@@ -582,8 +582,9 @@ strong {
 }
 
 .image-popup:hover .portfolio-image,
+.image-link:hover .portfolio-image,
 .news-image-hover:hover .news-image {
-  transform: scale(1.02);
+  transform: scale(1.2);
 }
 
 .news-two-column {
