@@ -54,6 +54,11 @@ body {
     overflow-x: hidden;
 }
 
+.main-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
@@ -160,9 +165,18 @@ footer a {
   text-decoration: none;
 }
 
-.card {
+#highlighted-projects {
   background-color: var(--primary-color);
   color: var(--white-color);
+}
+
+#highlighted-projects .card {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.card {
+  /*margin-bottom: 10px;*/
 }
 
 #highlighted-projects img {
@@ -458,6 +472,12 @@ strong {
   right: 0;
   width: 65%;
   padding: 22px 32px 32px 32px;
+}
+
+.carousel {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
 }
 
 .carousel-control-next, 
